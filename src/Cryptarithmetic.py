@@ -138,7 +138,7 @@ if QnA == 'y':
 
 elif QnA == 'n':
     while 1:
-        print("Input filenames (TC1.txt / ... / TC10.txt / eg1.txt / ... / eg3.txt)")
+        print("\nInput filenames (TC1.txt / ... / TC10.txt / eg1.txt / ... / eg3.txt)")
         filename = input(">> ")
         while not os.path.isfile('../testcase/' + filename):
             print("File not found!\n")
@@ -147,14 +147,14 @@ elif QnA == 'n':
         
         Cryptarithmetic(filename)
 
-        QnA = input("Check other testcase (y/n)?\n>> ")
+        QnA = input("\nCheck other testcase (y/n)?\n>> ")
         if QnA == 'y':
             print("\n!")
         elif QnA == 'n':
             print("┏━━━━━━━━━━━━━┓\n┃     END     ┃\n┗━━━━━━━━━━━━━┛")
             break
         else:
-            print("Come on! u dumb..")
+            print("Come on! u dumb..\n")
             break
 else:
-    print("Come on! u dumb..")
+    print("Come on! u dumb..\n")
