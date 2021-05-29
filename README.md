@@ -12,12 +12,14 @@
 · <a href="https://github.com/bintangfrnz/Cryptarithmetic-Solver-with-Brute-Force/issues">Report Bug</a> ·
 </p>
 
+> note: This project is a rebuilt version of "Tucil 1 IF2211 Strategi Algoritma"
+
 <!-- Contents -->
 <details open="open">
     <summary>Contents</summary>
     <ol>
         <li><a href="#description">Description</a></li>
-        <li><a href="#spesifications">Spesifications</a></li>
+        <li><a href="#specifications">Specifications</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#how-to-run">How to run</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -42,7 +44,7 @@ Here are the examples and solutions of <b>Cryptarithmetic</b>:
 #### (1)
 
 <p align="center">
-  <img src="https://github.com/bintangfrnz/Cryptarithmetic-Solver-with-Brute-Force/blob/develop/img/contoh.PNG" alt="contoh">
+  <img src="https://github.com/bintangfrnz/Cryptarithmetic-Solver-with-Brute-Force/blob/main/img/contoh.PNG" alt="contoh">
 </p>
 
 The result are:
@@ -60,8 +62,8 @@ E=5, N=0, S=3, I=1, X=4
 
 The result is,
 <p align="center">
-    <img src="https://github.com/bintangfrnz/Cryptarithmetic-Solver-with-Brute-Force/blob/develop/img/hasil1.PNG" alt="hasil1">
-    <img src="https://github.com/bintangfrnz/Cryptarithmetic-Solver-with-Brute-Force/blob/develop/img/hasil2.PNG" alt="hasil2">
+    <img src="https://github.com/bintangfrnz/Cryptarithmetic-Solver-with-Brute-Force/blob/main/img/hasil1.PNG" alt="hasil1">
+    <img src="https://github.com/bintangfrnz/Cryptarithmetic-Solver-with-Brute-Force/blob/main/img/hasil2.PNG" alt="hasil2">
 </p>
 
 ## Specifications
@@ -93,7 +95,7 @@ Module:
   git clone https://github.com/bintangfrnz/Cryptarithmetic-Solver-with-Brute-Force.git
   ```
 
-2. Pindah directory
+2. Move to src
   ```sh
   cd src
   ```
