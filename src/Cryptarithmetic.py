@@ -149,7 +149,7 @@ elif QnA == 'n':
 
         QnA = input("\nCheck other testcase (y/n)?\n>> ")
         if QnA == 'y':
-            print("\n!")
+            continue
         elif QnA == 'n':
             print("┏━━━━━━━━━━━━━┓\n┃     END     ┃\n┗━━━━━━━━━━━━━┛")
             break
